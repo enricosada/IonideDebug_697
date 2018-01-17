@@ -4,10 +4,8 @@
     <TargetFramework>net462</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="SSA2HTML5.fs" />
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Include="Parser.fs" />
+    <!-- <None Include="App.config" /> -->
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
